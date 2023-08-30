@@ -15,11 +15,22 @@ Here you will find the component list, schematics, and instructions to build the
 
 The pins in this schematic are connected to `D8` through `D10`. However, in this build, you could use any digital pin, or analog pin for that matter, as we will not be doing anything more than digitalreads from the pins.
 
-![img](/images/schematic.jpg)
-**The Arduino Pro Micro found in this image has different dimensions than the recommended one. THIS ONE WILL NOT FIT IN THE 3D PRINT; make sure you buy the correct version.*
+![img](/images/electrical%20schematic.png)
 
-(Source: https://electronoobs.com)
+![img](images/soldering.jpg)
 
-## Steps
+## Upload Firmware
+
+First make sure that you have solderd your knob completely.
+
+1. Clone this repository: `git clone https://github.com/WouterPennings/mediaknob.git`
+2. Install [Arduino IDE 2.X](https://www.arduino.cc/en/software)
+3. Install the `Button2` and `HID-Project` on the left side of the screen in the `Library` tab
+4. Plug your Arduino Pro Micro in the Micro USB cable, select the correct COM port.
+5. Press the `Upload` button and wait until the code is compiled and uploaded to your Arduino
+
+> **Tip**: Use the serial monitor to debug if your knob show unexpected behaviour
+
+## Assembly Steps
 
 > TODO
