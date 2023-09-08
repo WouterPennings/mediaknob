@@ -51,7 +51,7 @@ void setup() {
   button.setTripleClickHandler(trippleClick);
   button.setLongClickDetectedHandler(LongClickDetected);
 
-  button.setLongClickTime(300); // Default LongClickTime is 200 ms
+  button.setLongClickTime(500); // Default LongClickTime is 200 ms
 
   pinMode(ROT_PIN_A, INPUT_PULLUP);
   pinMode(ROT_PIN_B, INPUT_PULLUP);
